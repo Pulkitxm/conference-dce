@@ -1,0 +1,16 @@
+#nav{
+    background-color: #008d14 !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 10000;
+}
+#nav .container-fluid .navbar-brand img{
+    width: 8em;
+}
+.dropdown-toggle::after {
+    color: #fff;
+}
+#nav a{
+    cursor: pointer;
+    text-decoration: none;
+}

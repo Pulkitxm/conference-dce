@@ -1,0 +1,55 @@
+.about{
+    background-color: #f7f7f7;
+}
+
+.about h1{
+    text-align: center;
+    letter-spacing: 0.05ch;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    padding-top: 2em;
+    color: #37517e;
+}
+
+.about h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.about h1::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.about h1 + p{
+    font-family: "Lato", sans-serif;
+    padding: .5em 5em;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 700;
+    opacity: .9;
+}
+@media (max-width: 790px ) {
+    .about h1 + p{
+       padding: 0 !important;
+    }
+}
+
+ul li{
+    text-align: start;
+    font-weight: normal;
+}

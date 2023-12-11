@@ -1,0 +1,62 @@
+.dates{
+    background-color: #f3f5fa;
+}
+.dates h1{
+    text-align: center;
+    letter-spacing: 0.05ch;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    padding-top: 2em;
+    color: #37517e;
+}
+
+.dates h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.dates h1::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.cards{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 2em;
+}
+
+.cards .card-date{
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    background: #fff;
+    transition: transform 1s;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.about .cards .card-date:hover{
+    transform: translateY(-10px);
+}
+
+.calendarImg{
+    width: 40px;
+}

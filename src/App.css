@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#scrollToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000000;
+    width: 50px;
+    cursor: pointer;
+    user-select: none;
+}

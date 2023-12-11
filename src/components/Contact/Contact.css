@@ -1,0 +1,59 @@
+.contact{
+    padding: 2em 0;
+    padding-bottom: 10em;
+}
+
+.contact h1{
+    text-align: center;
+    letter-spacing: 0.05ch;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    padding-top: 2em;
+    color: #37517e;
+    margin-bottom: 2em;
+}
+
+.contact h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.contact h1::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.contact .details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact .details .box {
+    display: flex;
+    justify-content: center;
+    width: 30em;
+    height: 10em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10em 0;
+    border-top: solid 5px rgb(98, 197, 255);
+    border-bottom: solid 5px rgb(98, 197, 255);
+    align-items: center;
+}
+.contact .details iframe,
+.contact .details .box {
+    margin: 3em 2em;
+}

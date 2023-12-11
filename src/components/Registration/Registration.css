@@ -1,0 +1,90 @@
+.registration{
+    background-color: #f7f7f7;
+    padding: 2em 0;
+}
+
+.registration h1{
+    text-align: center;
+    letter-spacing: 0.05ch;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    padding-top: 2em;
+    color: #37517e;
+}
+
+.registration h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.registration h1::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.registration p{
+    font-family: "Lato", sans-serif;
+    padding: .5em 5em;
+    font-size: 1em;
+    text-align: center;
+    opacity: .9;
+}
+
+.registration .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20em;
+}
+
+.registration .boxes .box{
+    height: 60px;
+    width: 290px;
+    margin: 1em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f9ff;
+    color: #000000ab;
+    font-weight: 500;
+}
+
+.registration .box{
+    background-color: #fff;
+    width: 50%;
+    padding: 1em 2em;
+    border-radius: .8em;
+    box-shadow: 2px 2px 20px #00000017;
+    margin: 3em auto;
+}
+
+.registration .box .head{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.registration .box p{
+    width: 100%;
+    padding: 1em;
+    font-size: 1.2em;
+}
